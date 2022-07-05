@@ -28,7 +28,7 @@ h1{
     
 }
 img{
-    padding: 25px 0px 25px 0px;
+    padding: 25px 0px 0px 0px;
     display: block;
     margin-left: auto;
     margin-right: auto;
@@ -38,4 +38,10 @@ img{
 }
 .detail h4{
     padding: 20px 0px 10px 0px;
+}
+figure{
+    margin-bottom: 20px;
+}
+figcaption {
+    text-align: center;
 }

@@ -1,31 +1,22 @@
-*{
-    margin: 0;
-    padding: 0;
+body{
+    background-color: azure;
 }
 li{
     padding: 9px 0px 9px 0px;
     margin-left: 50px;
-}
-h1{
-    text-align: center;
-}
-.container{
-    position: relative;
-    min-height: 100vh;
-    background-color: black;
+    font-size: 20px;
 }
 .content{
     margin-left: auto;
     margin-right: auto;
     border-style: ridge;
-    border-color: brown;
+    border-color: rgb(86, 145, 168);
     border-width: 2rem;
 }
 .bg{
-    background-color: bisque;
+    background-color: rgb(252, 237, 218);
     padding: 20px 50px 20px 50px;
     width: max-content;    
-    
 }
 img{
     padding: 25px 0px 0px 0px;
@@ -33,15 +24,19 @@ img{
     margin-left: auto;
     margin-right: auto;
 }
-.detail h3{
-    padding-bottom: 15px;
-}
-.detail h4{
-    padding: 20px 0px 10px 0px;
-}
 figure{
     margin-bottom: 20px;
 }
 figcaption {
     text-align: center;
+}
+h1#heading{
+    text-align: center;
+    color: rgb(21, 121, 179);
+    font-size: 3rem;
+}
+li.popular{
+    border-style: dotted;
+    border-color: rgb(255, 96, 104);
+    border-width: 4px;
 }

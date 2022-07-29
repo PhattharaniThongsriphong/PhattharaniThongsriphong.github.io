@@ -1,0 +1,266 @@
+body{
+    background-color: #2D2A29;
+    font-family: Arial, Helvetica, sans-serif;
+}
+li{
+    list-style: none;
+}
+.home{
+    /* position: absolute; */
+    height: 600px;
+}
+.home .content{
+    display: block;
+    text-align: center;
+    color: white;
+    margin-top: 300px;
+}
+.home .content h1{
+    font-size: 3rem;
+    font-weight: bold;
+    margin-top: 40px;
+    font-style: bold;
+    text-shadow: 1px 1px 1px rgb(54, 52, 52);
+}
+.home .content h2{
+    font-size: 2rem;
+    margin-top: 30px;
+    font-weight: 200;
+}
+.home .content h3{
+    font-size: 1.5rem;
+    margin-top: 30px;
+    font-style: light;
+    font-weight: 400;
+}
+.home .content hr{
+    width: 50%;
+    margin-top: 30px;
+    border: 1px solid white;
+}
+.logo{
+    display: block;
+    text-align: center;
+}
+.logo ul li{
+    display: inline-flex;
+    margin-right: 60px;
+}
+.logo i{
+    font-size: 1.5rem;
+    color: white;
+}
+.about{
+    position: relative;
+    background-color:white;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    padding: 0px 0px 100px 0px;
+}
+.about .pic{
+    /* text-align: center; */
+    margin-top: 100px;
+    margin-left: 200px;
+
+}
+.about .pic img{
+    height: 500px;
+    border-radius: 20px;
+}
+.about .content{
+    /* background-color: antiquewhite; */
+    color: black;
+    margin-top: 100px;
+    margin-left: 80px;
+    /* height: 500px ; */
+    margin-bottom: 30px;
+}
+.about .content h1{
+    font-size: 2.5rem;
+    font-weight: bold;
+    font-style: bold;
+    margin-left: 50px;
+}
+.about .content .detail{
+    height: auto;
+    /* background-color: blue; */
+    margin-left: 50px;
+}
+.about .content .detail p{
+    font-size: 1.5rem;
+    margin-top: 50px;
+    padding: 0px 300px 5px 0px;
+}
+.contact{
+    margin-left: 50px;
+
+}
+/* .about .content .button-link{
+    position: relative;
+    margin-left: 50px;
+    margin-top: 40px;
+}
+.button-link button{
+    background-color: #DFDAD4;
+    color:black;
+    border: none;
+    padding: 5px 30px;
+    font-size: 1.5rem;
+    font-weight: 200;
+    border-radius: 5px;
+    cursor: pointer;
+    margin: 0px 20px 0px 0px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+} */
+.edex{
+    position: relative;
+    background-color:#EFECEB;
+    height: auto;
+    width: 100%;
+    left: 0;
+}
+.edex .education h1{
+    font-size: 2.5rem;
+    font-weight: bold;
+    font-style: bold;
+    margin-top: 80px;
+    text-align: center;
+}
+.education{
+    /* background-color: blueviolet; */
+    position: relative;
+}
+.education table{
+    /* background-color: yellow; */
+    display: flex;
+    padding-left: 300px;
+}
+.education table td{
+    /* border: 1px solid black; */
+    border-collapse: collapse;
+    font-size: 1.5rem;
+    height: 70px;
+}
+.year{
+    width: 300px;
+    text-align: center;
+}
+.school{
+    width: 800px;
+    padding-left: 80px;
+    background-color: white;
+    border-radius: 10px;
+}
+.space{
+    height: 20px;
+}
+.edex .experience h1{
+    font-size: 2.5rem;
+    font-weight: bold;
+    font-style: bold;
+    margin-top: 60px;
+    text-align: center;
+}
+.experience{
+    /* background-color: #9e8d87; */
+    position: relative;
+}
+.experience table{
+    /* background-color: yellow; */
+    display: flex;
+    padding-left: 300px;
+}
+.experience table td{
+    border-collapse: collapse;
+    font-size: 1.5rem;
+    height: 70px;
+    /* background-color: aqua; */
+}
+.work{
+    width: 800px;
+    padding-left: 80px;
+    background-color: white;
+    border-radius: 10px;
+}
+.dec{
+    padding-bottom: 120px;
+}
+.skill{
+    position: relative;
+    background-color:#FFF7F1;
+    height: auto;
+    width: 100%;
+    left: 0;
+    text-align: center;
+}
+.skill h1{
+    font-size: 2.5rem;
+    font-weight: bold;
+    font-style: bold;
+    color: #22326C;
+    margin-top: 80px;
+    margin-bottom: 50px;
+}
+.skill h2{
+    margin-bottom: 0;
+    margin-top: 0;
+}
+.sk{
+    display: flex;
+    justify-content: center;
+    font-size: 1.5rem;
+    font-weight: 100;
+    margin-bottom: 100px;
+    
+}
+.sk h2{
+    font-size: 1.8rem;
+    font-weight: 550;
+}
+.skill ul{
+    padding-left: 0;
+    background-color: white;
+    margin-top: 0;
+    padding-top: 10px;
+
+}
+.skill ul li{
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.program-box{
+    margin-right: 40px;
+    width: 400px;
+    box-shadow: 1px 1px 5px #DFDAD4;
+    background-color: white;
+    border-radius: 10px;
+}
+.program-box h2{
+    background-color: #DFDAD4;
+    padding: 30px;
+    border-radius: 10px 10px 0px 0px;
+}
+.software-box{
+    margin-right: 40px;
+    width: 400px;
+    background-color: white;
+    box-shadow: 1px 1px 5px #DFDAD4;
+    border-radius: 10px;
+}
+.software-box h2{
+    background-color: #DFDAD4;
+    padding: 30px;
+    border-radius: 10px 10px 0px 0px;
+}
+.language-box{
+    width: 400px;
+    background-color: white; 
+    box-shadow: 1px 1px 5px #DFDAD4;
+    border-radius: 10px;
+}
+.language-box h2{
+    background-color: #DFDAD4;
+    padding: 30px;
+    border-radius: 10px 10px 0px 0px;
+}

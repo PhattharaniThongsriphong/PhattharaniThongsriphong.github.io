@@ -1,11 +1,11 @@
 let num;
 do {
-    num = Number(prompt("Enter a positive integer"));
+    num = Number(prompt("Enter a positive integer that more than 1:"));
     if(num > 1 && Number.isInteger(num)){
         showPrimes(num);
         break;
-    }
-} while (num < 1 || isNaN(num) || !Number.isInteger(num));
+    }  
+} while (num <= 1 || isNaN(num) || !Number.isInteger(num));
 
 function showPrimes(n) {
     let primes = [];
@@ -15,7 +15,7 @@ function showPrimes(n) {
         primes.push(i);      
     }
     alert('For n = ' + num + ' prime numbers are ' + primes.join(','));
-}
+} 
 
 function isPrime(n) {
     for(let i = 2; i < n; i++){
